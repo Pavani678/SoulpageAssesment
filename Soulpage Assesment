@@ -1,0 +1,25 @@
+I have completed Task 1 and Task 2 as per the given requirements:
+
+Task 1: Basic Setup and Simple Feature:
+Setup the development environment and run the application
+Add a new field to the Conversation model
+Implement functionality to automatically generate and store conversation summaries
+Update the Django admin page to display the new field
+
+Modifications:
+Configured the development environment and successfully ran the application.
+Added a new field as summary to the Conversation model to store summaries.
+Implemented a functionality to generate and store conversation summaries automatically.
+Updated the Django admin interface to display the new summary field.
+
+Task 2: Database Migration and Data Management:
+Migrate the database from SQLite to PostgreSQL:-
+Implement a management command to clean up old conversations:-
+Schedule the cleanup command to run periodically using Django’s crontab or Celery:-
+
+Modifications:
+Migrated the application database from SQLite to PostgreSQL to enhance scalability and performance.
+Created a management command cleanup_conversations to delete conversations older than 30 days.
+Configured Django's crontab to run the cleanup command periodically.
+
+Thank you!
